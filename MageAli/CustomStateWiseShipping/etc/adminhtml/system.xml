@@ -37,7 +37,7 @@
                     <label>State Shipping Rate</label>
                     <frontend_model>MageAli\CustomStateWiseShipping\Block\Adminhtml\System\Config\Form\Field\ShippingList</frontend_model>
                     <backend_model>MageAli\CustomStateWiseShipping\Config\Backend\Serialized\ArraySerialized</backend_model>
-                    <comment>List of state to add shipping rate.</comment>
+                    <comment>List of state to add shipping rate. ( Add same "state code" as "state name" if state is not dropdown))</comment>
                 </field>
                 <field id="sallowspecific" translate="label" type="select" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Ship to Applicable Countries</label>
