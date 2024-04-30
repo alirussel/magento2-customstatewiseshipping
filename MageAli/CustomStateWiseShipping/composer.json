@@ -19,7 +19,7 @@
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
-        "OSL"
+        "proprietary"
     ],
     "authors": [
         {
