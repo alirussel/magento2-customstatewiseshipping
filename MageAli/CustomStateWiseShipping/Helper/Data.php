@@ -17,6 +17,11 @@ class Data extends AbstractHelper
      */
     protected $codes = [
         'code' => [
+            'label' => 'State Code',
+            'class' => 'validate-no-empty validate-data',
+            'default' => ''
+        ],
+        'title' => [
             'label' => 'State Name',
             'class' => 'validate-no-empty',
             'default' => ''
