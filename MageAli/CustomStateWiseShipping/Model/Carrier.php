@@ -208,13 +208,12 @@ class Carrier extends AbstractCarrier implements CarrierInterface
      */
     public function getAllowedMethods()
     {
-        //$result = [];
-        /*foreach ($this->_customShippingRateHelper->getShippingType() as $shippingType) {
+        $result = [];
+        foreach ($this->_customShippingRateHelper->getShippingType() as $shippingType) {
             $result[$shippingType['code']] = $shippingType['title'];
-            
-        }*/
-        return ['customstateshippingrate' => $this->getConfigData('name')];
-        //return $result;
+        }
+        //return ['customstateshippingrate' => $this->getConfigData('name')];
+        return $result;
     }
 
     
