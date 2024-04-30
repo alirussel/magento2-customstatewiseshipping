@@ -29,7 +29,7 @@
     ],
     "require": {
         "php": "~7.3.0|~7.4.0|~8.1.0|~8.2.0|~8.2.18",
-        "minimum-stability": "dev"
+        "mageali/magento2-customstatewiseshipping": "^1.0"
     },
     "support": {
         "email": "ali.russel21@gmail.com",
