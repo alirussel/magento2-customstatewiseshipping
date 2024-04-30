@@ -25,7 +25,8 @@
         }
     ],
     "require": {
-        "php": "~7.3.0|~7.4.0|~8.1.0|~8.2.0|~8.2.18"
+        "php": "~7.3.0|~7.4.0|~8.1.0|~8.2.0|~8.2.18",
+        "minimum-stability": "dev"
     },
     "support": {
         "email": "ali.russel21@gmail.com",
