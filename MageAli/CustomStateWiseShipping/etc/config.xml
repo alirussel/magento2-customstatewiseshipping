@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <customstateshippingrate>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>MageAli\CustomStateWiseShipping\Model\Carrier</model>
+                <name>Custom State Shipping</name>
+                <handling_type>F</handling_type>
+                <price>0</price>
+                <title>Custom State Rate</title>
+                <type>O</type>
+                <specificerrmsg>This shipping method is not available right now.</specificerrmsg>
+            </customstateshippingrate>
+        </carriers>
+    </default>
+</config>

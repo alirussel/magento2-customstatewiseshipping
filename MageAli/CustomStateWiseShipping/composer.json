@@ -1,0 +1,19 @@
+{
+    "name": "mageali/magento2-customstatewiseshipping",
+    "description": "Custom State Wise Shipping.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "require": {
+        "php": "^7.0.0",
+        "magento/framework": "^100.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "MageAli\\CustomStateWiseShipping\\": ""
+        }
+    }
+}
