@@ -1,14 +1,39 @@
 {
     "name": "mageali/magento2-customstatewiseshipping",
     "description": "Custom State Wise Shipping.",
+    "keywords": [
+        "magento 2",
+        "magento2",
+        "shipping",
+        "magento2 how to create custom shipping method",
+        "magento2 shipping module",
+        "magento2 shipping extension",
+        "custom shipping module",
+        "shipping rates",
+        "shipping extension",
+        "shipping method",
+        "custom shipping",
+        "magento 2 free shipping extension",
+        "magento shipping"
+    ],
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
         "proprietary"
     ],
+    "authors": [
+        {
+            "name": "Ali Russel",
+            "email": "ali.russel@gmail.com"
+        }
+    ],
     "require": {
-        "php": "^7.0.0",
-        "magento/framework": "^100.0"
+        "php": "~7.4.0|~8.1.0|~8.2.0",
+        "magento/framework": "103.0.*"
+    },
+    "support": {
+        "email": "ali.russel@gmail.com",
+        "issues": "https://github.com/alirussel/magento2-customstatewiseshipping/issues/"
     },
     "autoload": {
         "files": [ "registration.php" ],
