@@ -13,6 +13,7 @@ Install with Composer!
 	php bin/magento setup:di:compile
 	php bin/magento setup:static-content:deploy
 	php bin/magento cache:flush
+ 
 	```
 
 
@@ -37,7 +38,7 @@ Install manually!
 
 	After installing this module you will see a shipping method in the admin panel named "Custom State Wise Shipping"  (Admin panel->stores->configuration->sales->shipping method)
 
-	You can see the custom shipping on the Shopping Cart page and Checkout page.
+	You can see the "custom shipping method" on the Shopping Cart page and Checkout page.
 
 
 ## License
