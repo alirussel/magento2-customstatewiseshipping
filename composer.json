@@ -35,6 +35,7 @@
         "email": "ali.russel@gmail.com",
         "issues": "https://github.com/alirussel/magento2-customstatewiseshipping/issues/"
     },
+    "another-vendor/package": "1.*",
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
