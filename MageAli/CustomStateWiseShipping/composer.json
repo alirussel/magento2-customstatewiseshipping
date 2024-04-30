@@ -24,7 +24,7 @@
     "authors": [
         {
             "name": "Ali Russel",
-            "email": "ali.russel@gmail.com"
+            "email": "ali.russel21@gmail.com"
         }
     ],
     "require": {
@@ -32,7 +32,7 @@
         "magento/framework": "103.0.*"
     },
     "support": {
-        "email": "ali.russel@gmail.com",
+        "email": "ali.russel21@gmail.com",
         "issues": "https://github.com/alirussel/magento2-customstatewiseshipping/issues/"
     },
     "another-vendor/package": "1.*",
